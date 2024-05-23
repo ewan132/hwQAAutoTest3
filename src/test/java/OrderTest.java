@@ -64,5 +64,27 @@ public class OrderTest {
         $("[data-test-id=agreement].input_invalid").isDisplayed();
 
     }
+    @Test
+    void noName(){
+        open("http://localhost:9999/");
+        SelenideElement form = $(".form");
+
+        form.$("[data-test-id=phone] input").val("+79150000000");
+        form.$("[data-test-id=agreement").click();
+        form.$(".button__text").click();
+        $("[data-test-id='name'].input_invalid .input__sub").shouldHave(Condition.exactText("Поле обязательно для заполнения"));
+    }
+
+    @Test
+    void noPhone(){
+        open("http://localhost:9999/");
+        SelenideElement form = $(".form");
+        form.$("[data-test-id=name] input").val("Иван");
+
+        form.$("[data-test-id=agreement").click();
+        form.$(".button__text").click();
+        $("[data-test-id='phone'].input_invalid .input__sub").shouldHave(Condition.exactText("Поле обязательно для заполнения"));
+
+    }
 
 }
