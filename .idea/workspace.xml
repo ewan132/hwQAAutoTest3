@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f5fdef-74d8-4d6e-8fce-9e3da721894f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -19,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,19 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.OrderTest.OnlyName.executor": "Run",
-    "Gradle.OrderTest.shouldFullFillingOrder.executor": "Run",
-    "Gradle.OrderTest.shouldOrder.executor": "Run",
-    "Gradle.OrderTest.uncorrectedPhone.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.OrderTest.OnlyName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.noAgreement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.shouldFullFillingOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.shouldOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.uncorrectedName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OrderTest.uncorrectedPhone.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.OrderTest.uncorrectedPhone">
-    <configuration name="OrderTest.OnlyName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.OrderTest">
+    <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -64,7 +75,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;OrderTest.OnlyName&quot;" />
+            <option value="&quot;OrderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderTest.noAgreement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;OrderTest.noAgreement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OrderTest.shouldOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrderTest.uncorrectedName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;OrderTest.shouldOrder&quot;" />
+            <option value="&quot;OrderTest.uncorrectedName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,10 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderTest" />
+        <item itemvalue="Gradle.OrderTest.noAgreement" />
+        <item itemvalue="Gradle.OrderTest.uncorrectedName" />
         <item itemvalue="Gradle.OrderTest.uncorrectedPhone" />
         <item itemvalue="Gradle.OrderTest.shouldFullFillingOrder" />
-        <item itemvalue="Gradle.OrderTest.OnlyName" />
-        <item itemvalue="Gradle.OrderTest.shouldOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -166,20 +202,5 @@
       <updated>1716403809224</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/OrderTest.java</url>
-          <line>33</line>
-          <properties class="OrderTest" method="uncorrectedPhone">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
