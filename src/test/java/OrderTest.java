@@ -19,7 +19,7 @@ public class OrderTest {
     }
 
     @Test
-    void OnlyName(){
+    void onlyName(){
         open("http://localhost:9999/");
         SelenideElement form = $(".form");
         form.$("[data-test-id=name] input").val("Иван");
@@ -61,7 +61,7 @@ public class OrderTest {
         form.$("[data-test-id=phone] input").val("+79150000000");
 
         form.$(".button__text").click();
-        $("[data-test-id=agreement].input_invalid").isDisplayed();
+        $("[data-test-id=agreement].input_invalid").shouldHave(Condition.visible);
 
     }
     @Test

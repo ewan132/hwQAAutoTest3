@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f5fdef-74d8-4d6e-8fce-9e3da721894f" name="Changes" comment="" />
+    <list default="true" id="34f5fdef-74d8-4d6e-8fce-9e3da721894f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +26,32 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hwQAAutoTest3" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hwQAAutoTest3" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hwQAAutoTest3" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hwQAAutoTest3" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -44,21 +74,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.OrderTest.OnlyName.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.noAgreement.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.shouldFullFillingOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.shouldOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.uncorrectedName.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderTest.uncorrectedPhone.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.OrderTest.OnlyName.executor": "Run",
+    "Gradle.OrderTest.executor": "Run",
+    "Gradle.OrderTest.noAgreement.executor": "Run",
+    "Gradle.OrderTest.noName.executor": "Run",
+    "Gradle.OrderTest.noPhone.executor": "Run",
+    "Gradle.OrderTest.shouldFullFillingOrder.executor": "Run",
+    "Gradle.OrderTest.shouldOrder.executor": "Run",
+    "Gradle.OrderTest.uncorrectedName.executor": "Run",
+    "Gradle.OrderTest.uncorrectedPhone.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.OrderTest.noPhone">
+}]]></component>
+  <component name="RunManager" selected="Gradle.OrderTest.noAgreement">
     <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderTest.noAgreement" />
+        <item itemvalue="Gradle.OrderTest" />
         <item itemvalue="Gradle.OrderTest.noPhone" />
         <item itemvalue="Gradle.OrderTest.noName" />
         <item itemvalue="Gradle.OrderTest.OnlyName" />
-        <item itemvalue="Gradle.OrderTest" />
-        <item itemvalue="Gradle.OrderTest.noAgreement" />
       </list>
     </recent_temporary>
   </component>
